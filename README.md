@@ -6,7 +6,7 @@
 
 #### 1. Where can I get DisBotList.xyz api?
   Ans: [JavaScript](https://www.npmjs.com/package/disbotlist)
-            [Python](https://pypi.org/project/disbotlist/)
+            [Python](https://pypi.org/project/disbotlist.py/)
 
 #### 2. How do I install it?
   Ans: JavaSciprt: npm i disbotlist or npm install disbotlist
