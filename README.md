@@ -1,5 +1,13 @@
 *NPM:** [npmjs.com/package/disbotlist](https://www.npmjs.com/package/disbotlist/)<br>
 
+
+<a href="https://www.npmjs.com/package/disbotlist/"><img src="https://img.shields.io/npm/v/disbotlist.svg?maxAge=3600" alt="NPM version" /></a>
+<a href="https://www.npmjs.com/package/disbotlist"><img src="https://img.shields.io/npm/dt/disbotlist.svg?maxAge=3600" alt="NPM downloads" /></a>
+
+
+<a href="https://nodei.co/npm/disbotlist"><img src="https://nodei.co/npm/disbotlist.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+
+
 ## Installation
 *If you have trouble with the installation, please feel free to visit our [discord](https://discord.gg/c96hPfyWQd) address.*
 - `npm i disbotlist`
