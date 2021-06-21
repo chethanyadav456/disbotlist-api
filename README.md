@@ -29,15 +29,18 @@ Examples:  avatar, botID, discriminator, shortDescription, prefix, votes, server
 
 #### 5. How can I get my bot's server count?
   `Ans: JavaScript:`
-```const disbot = require("disbotlist");
+```js
+const disbot = require("disbotlist");
 const dbl = new disbot("TOKEN-HERE", client);
 
 client.on("ready", async () => {
   dbl.serverCount();
   console.log("Server count posted")
+
 ```
   ### Python: 
-```from disbotlist import disbotlist
+```py
+from disbotlist import disbotlist
 from discord.ext import commands
 
 client = commands.Bot(command_prefix="!") 
@@ -49,11 +52,13 @@ async def on_ready():
   print(x)
 
 client.run("token") 
+
 ```
 
 #### 6. How can I get my bot's vote count?
   `Ans:`
-```let hasVote = await dbl.hasVoted("Your-bot-id");
+```js
+let hasVote = await dbl.hasVoted("Your-bot-id");
   if(hasVote === true) {
     console.log("Voted")
   } else {
@@ -63,11 +68,13 @@ client.run("token") 
   
   let search = await dbl.search("Your-bot-id")
   console.log(search)
+
 ```
 
 #### 7. Full Example?
   `Ans:`
-```const disbot = require("disbotlist");
+```js
+const disbot = require("disbotlist");
 const dbl = new disbot("TOKEN-HERE", client);
 
 client.on("ready", async () => {
@@ -103,4 +110,5 @@ client.on("ready", async () => {
   }
   */
 });
+
 ```
